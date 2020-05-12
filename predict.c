@@ -124,7 +124,7 @@ static PyObject *NoTransitException;
         tests.  Freezes the clock to a specified time, making calculations
         deterministic. (remove when finished along with (2) call sites)
 */
-char debug_freeze_time = 0;
+char debug_freeze_time = 1;
 struct tm debug_frozen_tm = { tm_year: 114, tm_mon: 10, tm_mday: 2 };
 
 // This struct represents an observation of a particular satellite
